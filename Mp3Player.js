@@ -4,7 +4,7 @@ const WebSocket = require('ws');
 
 const CHUNK_SIZE = 1024;
 const url = "https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL";
-const audioSocketUrl = "ws://192.168.111.210:8765"; // WebSocket URL
+const audioSocketUrl = "ws://192.168.12.1:8765"; // WebSocket URL
 
 const headers = {
   "Accept": "audio/mpeg",
