@@ -1,7 +1,7 @@
 # go1-tts
 
 **Things to do before**
-- Intall websockets and asyncio on the rasperry pi and the Nano 13 (192.168.123.13)
+- Install websockets and asyncio on the rasperry pi and the Nano 13 (192.168.123.13)
 - AudioRelay.py on the Rasperry PI: python3 AudioRelay.py
 - audio_receiver.py on the Nano 13: python3 audio_receiver.py
 
