@@ -56,4 +56,11 @@ function textToSpeech(text) {
   });
 }
 
-module.exports = textToSpeech;
+// Usage example:
+textToSpeech("Hello, this is a test message.")
+  .then(outputFilePath => {
+    console.log('Audio sent through WebSocket.');
+  })
+  .catch(error => {
+    console.error('An error occurred:', error);
+  });
